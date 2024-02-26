@@ -4,7 +4,7 @@ import html from "../images/html.png";
 import css from "../images/css.png";
 import javascript from "../images/javascript.png";
 import reactImage from "../images/react.png";
-import nextjs from "../images/nextjs.png";
+import nodejs from "../images/node.png";
 import bulma from "../images/bulma.png";
 import bootstrap from"../images/bootstrap.png";
 import express from "../images/express.png";
@@ -12,6 +12,10 @@ import python from "../images/python.png";
 import sql from "../images/sql.png";
 import github from "../images/github.png";
 import tailwind from "../images/tailwind.png";
+import prisma from "../images/prisma.png";
+import postman from "../images/postman.png";
+import sqlite from "../images/sqlite.png";
+
 
 
 
@@ -61,9 +65,9 @@ const Experience = () => {
     },
     {
       id: 8,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-[#75bc3a]",
     },
     {
       id: 9,
@@ -85,6 +89,24 @@ const Experience = () => {
       },
     {
       id: 12,
+      src: prisma,
+      title: "Prisma",
+      style: "shadow-[#11384d]",
+    },
+    {
+      id: 13,
+      src: postman,
+      title: "Postman",
+      style: "shadow-[#e95723]",
+    },
+    {
+      id: 14,
+      src: sqlite,
+      title: "Sqlite",
+      style: "shadow-[#47a2da]",
+    },
+    {
+      id: 15,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
