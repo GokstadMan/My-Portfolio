@@ -15,6 +15,9 @@ import tailwind from "../images/tailwind.png";
 import prisma from "../images/prisma.png";
 import postman from "../images/postman.png";
 import sqlite from "../images/sqlite.png";
+import nextjs from "../images/nextjs.png";
+import typescript from "../images/typescript.png";
+import mongodb from"../images/mongodb.png"
 
 
 
@@ -107,6 +110,24 @@ const Experience = () => {
     },
     {
       id: 15,
+      src: nextjs,
+      title: "NextJs",
+      style: "shadow-[#cdcdcd]",
+    },
+    {
+      id: 16,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-[#3178c6]",
+    },
+    {
+      id: 17,
+      src: mongodb,
+      title: "Mongo DB",
+      style: "shadow-[#12a54f]",
+    },
+    {
+      id: 18,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
